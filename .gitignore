@@ -1,0 +1,44 @@
+# Gradle / Java
+.gradle/
+**/.gradle/
+**/build/
+.kotlin/
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# .NET / C#
+**/bin/
+**/obj/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.user
+*.rsuser
+*.suo
+*.nupkg
+*.snupkg
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example

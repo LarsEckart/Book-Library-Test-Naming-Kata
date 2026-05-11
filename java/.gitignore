@@ -1,0 +1,33 @@
+# Gradle
+.gradle/
+**/build/
+.kotlin/
+
+# JVM build artifacts and crash logs
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
